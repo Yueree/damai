@@ -105,7 +105,6 @@ import useUserStore from '@/store/modules/user'
 import {getPersonInfoId} from '@/api/personInfo'
 import {useRoute, useRouter} from 'vue-router'
 import {getCurrentCity, getHotCity, getOtherCity, getCityInfo} from '@/api/area'
-import {defineEmits} from 'vue'
 import {getProgramSearch} from "@/api/allType";
 import {useMitt} from "@/utils/index";
 
